@@ -50,8 +50,8 @@ func main() {
 		return n, ok
 	}
 
-	starToEnd, _ := shortestPathSteps(startX, startY)
-	fmt.Println("part 1)", starToEnd)
+	startToEnd, _ := shortestPathSteps(startX, startY)
+	fmt.Println("part 1)", startToEnd)
 
 	min := 999999999
 	for y := 0; y < height; y++ {
